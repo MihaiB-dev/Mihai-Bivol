@@ -1,0 +1,89 @@
+<!Doctype html>
+
+<html lang="en">
+    <head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link href="styles.css" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contact me</title>
+    </head>
+    <body>
+        <header class="container navbar navbar-expand-lg navbar-light bg-light">
+            <a  class="navbar-brand" href="index.html">
+            <img class="avatar"src="pictures/small-face-img.jpeg" alt="avatar">
+             <span></span>Bivol Mihai
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item ">
+                        <a class="nav-link " href="aboutMe.html">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="memories.html">Memories</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="contact-me.html">Contact Me</a>
+                    </li>
+                </ul>
+             </div>
+        </header>
+        <div class="container flex-footer contact-img">
+            <div class="section">
+                <div class="row">
+                    <div class="col">
+                        <div class="section" style="margin-top:0;">
+                            <h2>Let's Talk</h2>
+                        <p>If it's anything you want to ask, reach me out! Let's bring the dreams to life.</p>
+                        </div>
+                        <div class="section">
+                                <h3 style="display: inline-block;">Email:</h3>
+                                <p style="display: inline-block; padding-left:10px;">mihaibivol.div@gmail.com</p>
+                        </div>
+
+
+                    </div>
+                    <div class="col">
+                        <form action="mailto:mihaibivol.div@gmail.com" method="post" enctype="text/plain">
+
+                            <label for="fname">Name:</label>
+                            <br />
+                            <input type="text" id="fname" name="Name" placeholder="Your name..">
+                            <br />
+                            <label for="email">Your Email:</label>
+                            <br />
+                            <input type="email" id="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" placeholder="username@domainname.extension" name="email">
+                            <br />
+                            <label for="subject">Subject:</label>
+                            <br />
+                            <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                            <br />
+                            <input type="submit" value="Submit">
+
+                    </div>
+                </div>
+            <!-- section-->
+            </div>
+        <!-- container-->
+        </div>
+
+
+
+            <footer>
+                <div class="icons_group">
+                    <a href="https://www.linkedin.com/in/mihai-bivol/"><input type="image" src="pictures/icons/LinkedIn.png" class="icon"></a>
+                    <a href="https://www.instagram.com/mihai.25.09/"><input type="image" src="pictures/icons/Instagram.png" class="icon"></a>
+                    <a href="https://github.com/MihaiB-dev"><input type="image" src="pictures/icons/Github.png" class="icon"></a>
+                </div>
+                <p style="text-align:center; opacity:50%;">Bivol Mihai 2022</p>
+        </div>
+
+    </body>
+</html>
