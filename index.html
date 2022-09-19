@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link href="styles.css" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Mihai Bivol</title>
+    </head>
+        <body>
+            <header class="container navbar navbar-expand-lg navbar-light bg-light">
+                <a  class="navbar-brand" href="index.html">
+                <img class="avatar"src="pictures/small-face-img.jpeg" alt="avatar">
+                 <span></span>Bivol Mihai
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item ">
+                            <a class="nav-link" href="aboutMe.html">About Me</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="memories.html">Memories</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact-me.html">Contact Me</a>
+                        </li>
+                    </ul>
+                 </div>
+            </header>
+
+            <div class="container start_page row">
+                <div class="col">
+                    <h2>Hi, welcome to my homepage. :)</h2>
+                    <h3>'A happy life is a purposeful life'</h3>
+                </div>
+                <div class="col ms-auto">
+                    <img class="main_image" src="pictures/main picture.png" alt="main image">
+                </div>
+                <div class="arrow">
+                    <p>Let me show you around</p>
+                    <input type="image" src="pictures/Arrow 1.png" name="see-more" style="display:block;margin: 1.5rem auto; width:25px; height:auto;" id="scroll" />
+                    <script>
+                        document.getElementById('scroll').addEventListener('click', function(){
+                            window.scrollTo(0,700);
+                        })
+                    </script>
+                </div>
+            </div>
+            <div class="container" id="content">
+                <div class="section">
+                    <h1>About me --- </h1>
+                    <p>I'm Michael with big dreams. First of all, I'll tell you my story, some of about my hobbies and unfold a few of my life journey experiences.<a href="aboutMe.html">Find More</a></p>
+                </div>
+
+                <div class="section">
+                    <h1>Projects ---</h1>
+                    <div class="card">
+                        <div class="row">
+                                <div class="col pic-child">
+                                    <img class="p-image" src="pictures/Cinevera.png" alt="project cinevera">
+
+                                    <p><b>Cinevera</b></p>
+                                    <ul>
+                                        <li>Personal Project</li>
+                                        <li>Duration: 6 months</li>
+                                        <li>Lead UX Designer</li>
+                                    </ul>
+                                </div>
+                                <div class="col ms-auto">
+                                    <p>Going threw all UX processes ( from understanding the user to testing my app with real users) made me feel like I bring to life a goal and that I am capable of helping society with new ideas.</p>
+                                    <p2>Special thanks to the instructors: Michael Dedrick, Emily Schlemmer, Karen Ng, Jason R., Paolo Malabuyo, Shabnam Kashani and to Google</p2>
+                                    <p style="font-size:1rem; margin-top:0.5rem;">
+                                        <a href="https://onedrive.live.com/View.aspx?resid=1F306083CD8877EA!8663&wdSlideId=256&wdModeSwitchTime=1663238603020&authkey=!AKunhA3Ga29Ld9w">
+                                            <img src="pictures/powerpoint.png" style="margin-right:0.4rem;"> Watch the presentation</a>
+                                    </p>
+                                </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="row">
+                                <div class="col pic-child">
+                                    <img class="p-image" src="pictures/ancoinww2.png" alt="project animal contribution in ww2">
+
+                                    <p><b>Animal Contribution in WW2</b></p>
+                                    <ul>
+                                        <li>English certificate Project</li>
+                                        <li>Duration: 3 months</li>
+                                        <li>Research, Analize, Write</li>
+                                    </ul>
+                                </div>
+                                <div class="col ms-auto">
+                                    <p>History is the last hope to not repeating some mistakes and to understand how some things used to be back then, such as animals during the WW2. During this project you'll gather information, journeys, stories about the animals who saved millions of lives.</p>
+                                    <p2>Special thanks to the coordonating teachers: Paula Malancu and Gherghisan Lucia</p2>
+                                        <p style="font-size:1rem; margin-top:0.5rem;">
+                                            <a href="https://onedrive.live.com/View.aspx?resid=1F306083CD8877EA!8665&wdSlideId=256&wdModeSwitchTime=1663243102416&authkey=!AJn-tR-LBpWp0uY">
+                                                <img src="pictures/powerpoint.png" style="margin-right:0.4rem;"> Watch the presentation</a>
+                                        </p>
+                                        <p style="font-size:1rem; margin-top:0.5rem;">
+                                            <a href="https://onedrive.live.com/View.aspx?resid=1F306083CD8877EA!8667&wdAccPdf=0&wdEmbedFS=1&authkey=!ACUpZfbnVp1WhnU">
+                                                <img src="pictures/word.png" style="margin-right:0.4rem;"> View the word</a>
+                                        </p>
+
+                                </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="section">
+                    <h1>Some of my memories ---</h1>
+                            <img src="pictures/memories/York1.jpeg" class="mem_pics">
+                            <img src="pictures/memories/york2.jpeg" class="mem_pics">
+                            <img src="pictures/memories/zoo.jpeg" class="mem_pics">
+                            <img src="pictures/memories/Clif1.jpeg" class="mem_pics">
+                            <img src="pictures/memories/Clif2.jpeg" class="mem_pics">
+                            <img src="pictures/memories/Harry Potter.jpeg" class="mem_pics">
+                            <img src="pictures/memories/Clif3.jpeg" class="mem_pics">
+                            <img src="pictures/memories/Car_saltsburn.jpeg" class="mem_pics">
+                        <a href="memories.html"><input type="image" src="pictures/see_more.png" name="see-more" style="display:block;margin: 1.5rem auto; width:110px; height:auto;" /></a>
+                </div>
+            </div>
+            <footer>
+                <div class="icons_group">
+                    <a href="https://www.linkedin.com/in/mihai-bivol/"><input type="image" src="pictures/icons/LinkedIn.png" class="icon"></a>
+                    <a href="https://www.instagram.com/mihai.25.09/"><input type="image" src="pictures/icons/Instagram.png" class="icon"></a>
+                    <a href="https://github.com/MihaiB-dev"><input type="image" src="pictures/icons/Github.png" class="icon"></a>
+                </div>
+                <p style="text-align:center; opacity:50%;">Bivol Mihai 2022</p>
+            </footer>
+        </body>
+
+
+</html>
